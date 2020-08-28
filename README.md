@@ -1,13 +1,13 @@
 # CSC301 - Foundations of Programming Languages
 
 1. Why study programming languages?
-  * Communalities/differences
-  * Computational paradigms
-  * Language evolution/design
+    * Communalities/differences
+    * Computational paradigms
+    * Language evolution/design
 1. Meet our languages:
-  * Python - OO/Imperative
-  * Haskell - Functional
-  * Prolog - Logic
+    * Python - OO/Imperative
+    * Haskell - Functional
+    * Prolog - Logic
 1. Python
   * The basics
   * Objects and inheritance
