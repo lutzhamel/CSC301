@@ -1,7 +1,9 @@
 # CSC301 - Foundations of Programming Languages
 
-
 1. Why study programming languages?
+  * Communalities/differences
+  * Computational paradigms
+  * Language evolution/design
 1. Meet our languages:
   * Python - OO/Imperative
   * Haskell - Functional
@@ -15,7 +17,7 @@
   * Iterators (internal/external/generator)
   * Mapping
   * Types and type hierarchies
-1. Interlude I - Language specification
+1. Interlude - Language specification
   * Syntax/Semantics
   * Grammars
   * Parse tree/derivation trees
@@ -24,11 +26,11 @@
   * Lexical analysis
   * Parser generators
     * Lex/YACC
-1. Interlude II - Language Tools
+1. Interlude - Language Tools
   * The read–eval–print loop (REPL)
   * Debuggers
   * Interpreters vs compilers
-1. Interlude III - Memory management
+1. Interlude - Memory management
   * Typical process memory
   * Parameter passing
     * Pass by value
@@ -42,15 +44,11 @@
   * Higher order functions (mapping)
   * Algebraic data types
   * Functional IO
-1. Interlude IV - Scoping
-  * scoping rules
-  * name spaces
-  * static vs. dynamic scoping
-1. Interlude V - Recursion
+1. Interlude - Recursion
   * How do programming language implement recursive functions?
   * The runtime stack and stack frames
     * Using a debugger to look at the runtime stack
-1. Interlude VI - Polymorphism
+1. Interlude - Polymorphism
   * Duck typing
   * Subtype polymorphism
   * Parametric polymorphism
@@ -64,7 +62,11 @@
     * Proof trees
   * Arithmetic
   * IO
-1. Interlude VII - Formal semantics
+1. Interlude - Scoping
+  * scoping rules
+  * name spaces
+  * static vs. dynamic scoping
+1. Interlude - Formal semantics
   * Semantics via abstract interpretation
     * Operational semantics
   * Building abstract interpreters using Prolog
