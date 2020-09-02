@@ -5,18 +5,20 @@
     * Computational paradigms
     * Language evolution/design
 1. Meet our languages:
-    * Python - OO/Imperative
+    * Rust - OO/Imperative
     * Haskell - Functional
     * Prolog - Logic
-1. Python
+1. Rust
     * The basics
-    * Objects and inheritance
-    * Multiple inheritance
-    * The diamond inheritance graph problem
+    * Pattern matching oriented programming
+    * Types
+        * Type checking
+            * static vs dynamic
+        * Type hierarchies
+        * Generics
+    * Objects and traits
     * Higher order functions
     * Iterators (internal/external/generator)
-    * Mapping
-    * Types and type hierarchies
 1. Interlude - Language specification
     * Syntax/Semantics
     * Grammars
@@ -27,9 +29,9 @@
     * Parser generators
       * Lex/YACC
 1. Interlude - Language Tools
-    * The read–eval–print loop (REPL)
-    * Debuggers
+    * Tool chains
     * Interpreters vs compilers
+    * Debuggers
 1. Interlude - Memory management
     * Typical process memory
     * Parameter passing
