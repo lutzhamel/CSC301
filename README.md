@@ -4,10 +4,11 @@
     * Communalities/differences
     * Computational paradigms
     * Language evolution/design
-1. Meet our languages:
-    * Rust - OO/Imperative
-    * Haskell - Functional
-    * Prolog - Logic
+    * Meet our languages:
+        * Rust - OO/Imperative
+        * Haskell - Functional
+        * Prolog - Logic
+    * Slides: [Intro & Languages Classes](notes/csc301-ln001.pdf)
 1. Rust
     * The basics
     * Pattern matching oriented programming
