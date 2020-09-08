@@ -21,14 +21,17 @@
     * Higher order functions
     * Iterators (internal/external/generator)
 1. Interlude - Language specification
-    * Syntax/Semantics
-    * Grammars
-    * Parse tree/derivation trees
-    * Semantics: interpretations of the parse tree
+    * Syntax
+        * Grammars
+        * Parse tree/derivation trees
+    * Semantics
+        * interpretations of the parse tree
     * Ambiguous grammars
-    * Lexical analysis
-    * Parser generators
-      * Lex/YACC
+    * Building language Processors
+        * Lexical analysis
+        * Recursive descent parsing
+        * Adding actions
+        * Example: a simple calculator language
 1. Interlude - Language Tools
     * Tool chains
     * Interpreters vs compilers
