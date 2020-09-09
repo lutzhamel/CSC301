@@ -10,8 +10,8 @@
         * Prolog - Logic
     * Lecture Notes:
         * [Intro & Languages Classes](notes/csc301-ln001.pdf)
-1. Rust
-    * The basics
+1. [Rust](https://www.rust-lang.org)
+    * [The basics](https://stevedonovan.github.io/rust-gentle-intro/1-basics.html)
     * [Types and type systems](https://en.wikipedia.org/wiki/Type_system)
         * Type checking
             * static vs dynamic
