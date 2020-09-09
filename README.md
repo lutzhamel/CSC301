@@ -8,7 +8,7 @@
         * Rust - OO/Imperative
         * Haskell - Functional
         * Prolog - Logic
-    * Slides:
+    * Lecture Notes:
         * [Intro & Languages Classes](notes/csc301-ln001.pdf)
 1. Rust
     * The basics
@@ -21,7 +21,7 @@
     * Objects and traits
     * Higher order functions
     * Iterators (internal/external/generator)
-    * Slides:
+    * Lecture Notes:
         * [Rust Basics](notes/csc301-ln002.pdf)
 1. Interlude - Language specification
     * Syntax
