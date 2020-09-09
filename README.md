@@ -12,12 +12,12 @@
         * [Intro & Languages Classes](notes/csc301-ln001.pdf)
 1. Rust
     * The basics
-    * Pattern matching oriented programming
     * Types
         * Type checking
             * static vs dynamic
         * Type hierarchies
         * Generics
+    * Pattern matching oriented programming
     * Objects and traits
     * Higher order functions
     * Iterators (internal/external/generator)
