@@ -16,7 +16,6 @@
         * Type checking
             * static vs dynamic
         * Type hierarchies
-        * Generics
     * Pattern matching oriented programming
     * Objects and traits
     * Higher order functions
