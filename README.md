@@ -12,14 +12,14 @@
         * [Intro & Languages Classes](notes/csc301-ln001.pdf)
 1. Rust
     * The basics
-    * Types
+    * [Types and type systems](https://en.wikipedia.org/wiki/Type_system)
         * Type checking
             * static vs dynamic
         * Type hierarchies
-    * Pattern matching oriented programming
-    * Objects and traits
-    * Higher order functions
-    * Iterators (internal/external/generator)
+    * [Pattern matching](https://en.wikipedia.org/wiki/Pattern_matching) oriented programming
+    * [Objects and traits](https://en.wikipedia.org/wiki/Trait_(computer_programming))
+    * [Higher-order functions](https://en.wikipedia.org/wiki/Higher-order_function)
+    * [Iterators](https://en.wikipedia.org/wiki/Iterator) (internal/external)
     * Lecture Notes:
         * [Rust Basics](notes/csc301-ln002.pdf)
 1. Interlude - Language specification
