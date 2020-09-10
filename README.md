@@ -12,10 +12,16 @@
         * [Intro & Languages Classes](notes/csc301-ln001.pdf)
 1. [Rust](https://www.rust-lang.org)
     * [The basics](https://stevedonovan.github.io/rust-gentle-intro/1-basics.html)
-    * [Types and type systems](https://en.wikipedia.org/wiki/Type_system)
+    * **Lecture Notes**:
+        * [Rust Basics](notes/csc301-ln002.pdf)
+1. Interlude - [Types and type systems](https://en.wikipedia.org/wiki/Type_system)
         * Type checking
             * static vs dynamic
         * Type hierarchies
+        * Type inference
+        * **Lecture Notes**:
+            * [Types](notes/csc301-ln003.pdf)
+1. More on [Rust](https://www.rust-lang.org)
     * [Generics](https://en.wikipedia.org/wiki/Generic_programming)
     * The Rust standard library: [std](https://doc.rust-lang.org/std/index.html)
         * Strings
@@ -25,9 +31,7 @@
     * [Higher-order functions](https://en.wikipedia.org/wiki/Higher-order_function)
     * [Iterators](https://en.wikipedia.org/wiki/Iterator) (internal/external)
     * **Lecture Notes**:
-        * [Rust Basics](notes/csc301-ln002.pdf)
-        * [Types](notes/csc301-ln003.pdf)
-1. Interlude - Language specification
+1. Interlude - [Language specification](https://en.wikipedia.org/wiki/Programming_language_specification)
     * Syntax
         * Grammars
         * Parse tree/derivation trees
