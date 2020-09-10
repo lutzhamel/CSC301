@@ -15,12 +15,12 @@
     * **Lecture Notes**:
         * [Rust Basics](notes/csc301-ln002.pdf)
 1. Interlude - [Types and type systems](https://en.wikipedia.org/wiki/Type_system)
-        * Type checking
-            * static vs dynamic
-        * Type hierarchies
-        * Type inference
-        * **Lecture Notes**:
-            * [Types](notes/csc301-ln003.pdf)
+    * Type checking
+        * static vs dynamic
+    * Type hierarchies
+    * Type inference
+    * **Lecture Notes**:
+        * [Types](notes/csc301-ln003.pdf)
 1. More on [Rust](https://www.rust-lang.org)
     * [Generics](https://en.wikipedia.org/wiki/Generic_programming)
     * The Rust standard library: [std](https://doc.rust-lang.org/std/index.html)
