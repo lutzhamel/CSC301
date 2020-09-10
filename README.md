@@ -1,14 +1,14 @@
 # CSC301 - Foundations of Programming Languages
 
-1. Why study programming languages?
+1. Why study [programming languages](https://en.wikipedia.org/wiki/Programming_language)?
     * Communalities/differences
-    * Computational paradigms
+    * [Programming paradigms](https://en.wikipedia.org/wiki/Programming_paradigm)
     * Language evolution/design
     * Meet our languages:
-        * Rust - OO/Imperative
-        * Haskell - Functional
-        * Prolog - Logic
-    * Lecture Notes:
+        * [Rust](https://www.rust-lang.org) - OO/Imperative
+        * [Haskell](https://www.haskell.org) - Functional
+        * [Prolog](https://www.swi-prolog.org) - Logic
+    * **Lecture Notes**:
         * [Intro & Languages Classes](notes/csc301-ln001.pdf)
 1. [Rust](https://www.rust-lang.org)
     * [The basics](https://stevedonovan.github.io/rust-gentle-intro/1-basics.html)
@@ -16,11 +16,15 @@
         * Type checking
             * static vs dynamic
         * Type hierarchies
+    * [Generics](https://en.wikipedia.org/wiki/Generic_programming)
+    * The Rust standard library: [std](https://doc.rust-lang.org/std/index.html)
+        * Strings
+        * I/O
     * [Pattern matching](https://en.wikipedia.org/wiki/Pattern_matching) oriented programming
     * [Objects and traits](https://en.wikipedia.org/wiki/Trait_(computer_programming))
     * [Higher-order functions](https://en.wikipedia.org/wiki/Higher-order_function)
     * [Iterators](https://en.wikipedia.org/wiki/Iterator) (internal/external)
-    * Lecture Notes:
+    * **Lecture Notes**:
         * [Rust Basics](notes/csc301-ln002.pdf)
 1. Interlude - Language specification
     * Syntax
