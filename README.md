@@ -26,6 +26,7 @@
     * [Iterators](https://en.wikipedia.org/wiki/Iterator) (internal/external)
     * **Lecture Notes**:
         * [Rust Basics](notes/csc301-ln002.pdf)
+        * [Types]{notes/csc301-ln003.pdf}
 1. Interlude - Language specification
     * Syntax
         * Grammars
