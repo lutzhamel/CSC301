@@ -22,12 +22,12 @@
     * **Lecture Notes**:
         * [Types](notes/csc301-ln003.pdf)
 1. More on [Rust](https://www.rust-lang.org)
+    * [Objects and traits](https://en.wikipedia.org/wiki/Trait_(computer_programming))
     * [Generics](https://en.wikipedia.org/wiki/Generic_programming)
+    * [Pattern matching](https://en.wikipedia.org/wiki/Pattern_matching) oriented programming
     * The Rust standard library: [std](https://doc.rust-lang.org/std/index.html)
         * Strings
         * I/O
-    * [Pattern matching](https://en.wikipedia.org/wiki/Pattern_matching) oriented programming
-    * [Objects and traits](https://en.wikipedia.org/wiki/Trait_(computer_programming))
     * [Higher-order functions](https://en.wikipedia.org/wiki/Higher-order_function)
     * [Iterators](https://en.wikipedia.org/wiki/Iterator) (internal/external)
     * **Lecture Notes**:
