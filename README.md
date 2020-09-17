@@ -31,6 +31,8 @@
     * [Higher-order functions](https://en.wikipedia.org/wiki/Higher-order_function)
     * [Iterators](https://en.wikipedia.org/wiki/Iterator) (internal/external)
     * **Lecture Notes**:
+        * [Objects and Traits](notes/csc301-ln004.pdf)
+        * [Generics](notes/csc301-ln005.pdf)
 1. Interlude - [Language specification](https://en.wikipedia.org/wiki/Programming_language_specification)
     * Syntax
         * Grammars
