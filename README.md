@@ -33,6 +33,7 @@
     * **Lecture Notes**:
         * [Objects and Traits](notes/csc301-ln004.pdf)
         * [Generics](notes/csc301-ln005.pdf)
+        * [Pattern Matching](notes/csc301-ln006.pdf)
 1. Interlude - [Language specification](https://en.wikipedia.org/wiki/Programming_language_specification)
     * Syntax
         * Grammars
