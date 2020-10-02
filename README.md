@@ -35,7 +35,7 @@
         * [Generics](notes/csc301-ln005.pdf)
         * [Pattern Matching](notes/csc301-ln006.pdf)
         * [The Standard Library](notes/csc301-ln007.pdf)
-        * [Higher-Order Functions & Iterators](notes/csc302-ln008.pdf)
+        * [Higher-Order Functions & Iterators](notes/csc301-ln008.pdf)
 1. Interlude - [Language specification](https://en.wikipedia.org/wiki/Programming_language_specification)
     * Syntax
         * Grammars
