@@ -58,6 +58,7 @@
     * Debuggers
 1. Interlude - Memory management
     * Typical process memory
+    * Explicit Memory Management vs. Garbarge Collection
     * Parameter passing
       * Pass by value
       * Pass by reference
