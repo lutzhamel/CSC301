@@ -49,9 +49,9 @@
         * Adding actions
         * Example: a simple calculator language
     * **Lecture Notes**:
-        [Formal Language Specification](notes/csc301-ln009.pdf)
-        [Grammars in Action](notes/csc301-ln010.pdf)
-        [Grammars & Semantics](notes/csc301-ln011.pdf)
+        * [Formal Language Specification](notes/csc301-ln009.pdf)
+        * [Grammars in Action](notes/csc301-ln010.pdf)
+        * [Grammars & Semantics](notes/csc301-ln011.pdf)
 1. Interlude - Language Tools
     * Tool chains
     * Interpreters vs compilers
