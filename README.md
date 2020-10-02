@@ -37,17 +37,21 @@
         * [The Standard Library](notes/csc301-ln007.pdf)
         * [Higher-Order Functions & Iterators](notes/csc301-ln008.pdf)
 1. Interlude - [Language specification](https://en.wikipedia.org/wiki/Programming_language_specification)
-    * Syntax
-        * Grammars
-        * Parse tree/derivation trees
-    * Semantics
+    * [Syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
+        * [Grammars](https://en.wikibooks.org/wiki/Introduction_to_Programming_Languages/Grammars)
+        * [Ambiguous grammars](https://en.wikibooks.org/wiki/Introduction_to_Programming_Languages/Ambiguity)
+        * [Parse tree/derivation trees](https://en.wikibooks.org/wiki/Introduction_to_Programming_Languages/Parsing)
+    * [Semantics](https://en.wikipedia.org/wiki/Semantics_(computer_science))
         * interpretations of the parse tree
-    * Ambiguous grammars
-    * Building language Processors
+    * Building [Language Processors](https://www.computerhope.com/jargon/l/langproc.htm)
         * Lexical analysis
         * Recursive descent parsing
         * Adding actions
         * Example: a simple calculator language
+    * **Lecture Notes**:
+        [Formal Language Specification](notes/csc301-ln009.pdf)
+        [Grammars in Action](notes/csc301-ln010.pdf)
+        [Grammars & Semantics](notes/csc301-ln011.pdf)
 1. Interlude - Language Tools
     * Tool chains
     * Interpreters vs compilers
