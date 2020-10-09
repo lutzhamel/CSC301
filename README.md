@@ -48,7 +48,7 @@
         * [Lexical analysis](https://en.wikipedia.org/wiki/Lexical_analysis)
         * [Recursive descent parsing](https://en.wikipedia.org/wiki/Recursive_descent_parser)
             * Adding actions
-        * Example: a [simple calculator language](https://en.wikipedia.org/wiki/Bc_(programming_language))
+    * Example: a [simple calculator language](https://en.wikipedia.org/wiki/Bc_(programming_language))
     * **Lecture Notes**:
         * [Formal Language Specification](notes/csc301-ln009.pdf)
         * [Grammars in Action](notes/csc301-ln010.pdf)
