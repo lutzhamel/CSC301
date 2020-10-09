@@ -36,14 +36,15 @@
         * [Pattern Matching](notes/csc301-ln006.pdf)
         * [The Standard Library](notes/csc301-ln007.pdf)
         * [Higher-Order Functions & Iterators](notes/csc301-ln008.pdf)
-1. Interlude - [Language specification](https://en.wikipedia.org/wiki/Programming_language_specification)
-    * [Syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
-        * [Grammars](https://en.wikibooks.org/wiki/Introduction_to_Programming_Languages/Grammars)
-        * [Ambiguous grammars](https://en.wikibooks.org/wiki/Introduction_to_Programming_Languages/Ambiguity)
-        * [Parse tree/derivation trees](https://en.wikibooks.org/wiki/Introduction_to_Programming_Languages/Parsing)
-    * [Semantics](https://en.wikipedia.org/wiki/Semantics_(computer_science))
-        * interpretations of the parse tree
-    * Building [Language Processors](https://www.computerhope.com/jargon/l/langproc.htm)
+1. Interlude - Language specification & Implementation
+    * [Programming Language Specification](https://en.wikipedia.org/wiki/Programming_language_specification)
+        * [Syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
+           * [Grammars](https://en.wikibooks.org/wiki/Introduction_to_Programming_Languages/Grammars)
+           * [Ambiguous grammars](https://en.wikibooks.org/wiki/Introduction_to_Programming_Languages/Ambiguity)
+           * [Parse tree/derivation trees](https://en.wikibooks.org/wiki/Introduction_to_Programming_Languages/Parsing)
+        * [Semantics](https://en.wikipedia.org/wiki/Semantics_(computer_science))
+           * interpretations of the parse tree
+    * [Programming Language Implementation](https://en.wikipedia.org/wiki/Programming_language_implementation)
         * [Lexical analysis](https://en.wikipedia.org/wiki/Lexical_analysis)
         * [Recursive descent parsing](https://en.wikipedia.org/wiki/Recursive_descent_parser)
             * Adding actions
