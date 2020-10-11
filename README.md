@@ -45,6 +45,7 @@
         * [Semantics](https://en.wikipedia.org/wiki/Semantics_(computer_science))
            * Interpretations of the parse tree
     * [Programming Language Implementation](https://en.wikipedia.org/wiki/Programming_language_implementation)
+        * Interpreters vs Compilers
         * [Lexical Analysis](https://en.wikipedia.org/wiki/Lexical_analysis)
             * [Lex](https://en.wikipedia.org/wiki/Lex_(software))
         * [Syntax Analysis](https://en.wikipedia.org/wiki/Parsing)
@@ -55,10 +56,6 @@
         * [Formal Language Specification](notes/csc301-ln009.pdf)
         * [Grammars in Action](notes/csc301-ln010.pdf)
         * [Grammars & Semantics](notes/csc301-ln011.pdf)
-1. Interlude - Language Tools
-    * Tool chains
-    * Interpreters vs compilers
-    * Debuggers
 1. Interlude - Memory management
     * Typical process memory
     * Explicit Memory Management vs. Garbarge Collection
