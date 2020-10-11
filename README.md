@@ -43,12 +43,14 @@
            * [Ambiguous grammars](https://en.wikibooks.org/wiki/Introduction_to_Programming_Languages/Ambiguity)
            * [Parse tree/derivation trees](https://en.wikibooks.org/wiki/Introduction_to_Programming_Languages/Parsing)
         * [Semantics](https://en.wikipedia.org/wiki/Semantics_(computer_science))
-           * interpretations of the parse tree
+           * Interpretations of the parse tree
     * [Programming Language Implementation](https://en.wikipedia.org/wiki/Programming_language_implementation)
-        * [Lexical analysis](https://en.wikipedia.org/wiki/Lexical_analysis)
-        * [Recursive descent parsing](https://en.wikipedia.org/wiki/Recursive_descent_parser)
-            * Adding actions
-    * Example: a [simple calculator language](https://en.wikipedia.org/wiki/Bc_(programming_language))
+        * [Lexical Analysis](https://en.wikipedia.org/wiki/Lexical_analysis)
+            * [Lex](https://en.wikipedia.org/wiki/Lex_(software))
+        * [Syntax Analysis](https://en.wikipedia.org/wiki/Parsing)
+           * [Yacc](https://en.wikipedia.org/wiki/Yacc)
+           * [Recursive descent parsing](https://en.wikipedia.org/wiki/Recursive_descent_parser)
+        * Example: a [simple calculator language](https://en.wikipedia.org/wiki/Bc_(programming_language))
     * **Lecture Notes**:
         * [Formal Language Specification](notes/csc301-ln009.pdf)
         * [Grammars in Action](notes/csc301-ln010.pdf)
