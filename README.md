@@ -59,19 +59,20 @@
         * [Programming Language Implementation](notes/csc301-ln012.pdf)
 1. Haskell
       * The Basics
-         * Variables and functions
-         * Truth values
-         * Type basics
-         * Lists and tuples
-         * Type basics II
-         * Simple input and output
+         * [Getting Started](https://en.wikibooks.org/wiki/Haskell/Getting_set_up)
+         * [Variables and Functions](https://en.wikibooks.org/wiki/Haskell/Variables_and_functions)
+         * [Truth Values](https://en.wikibooks.org/wiki/Haskell/Truth_values)
+         * [Type Basics](https://en.wikibooks.org/wiki/Haskell/Type_basics)
+         * [Lists and Tuples](https://en.wikibooks.org/wiki/Haskell/Lists_and_tuples)
+         * [Type Basics II](https://en.wikibooks.org/wiki/Haskell/Type_basics_II)
+         * [Simple Input and Output](https://en.wikibooks.org/wiki/Haskell/Simple_input_and_output)
       * Diving a Bit Deeper
-         * Recursion
-         * Lists II (map)
-         * Lists III (folds, comprehensions)
-         * Type declarations
-         * Pattern matching
-         * Control structures
+         * [Recursion](https://en.wikibooks.org/wiki/Haskell/Recursion)
+         * [Lists II (map)](https://en.wikibooks.org/wiki/Haskell/Lists_II)
+         * [Lists III (folds, comprehensions)](https://en.wikibooks.org/wiki/Haskell/Lists_III)
+         * [Type Declarations](https://en.wikibooks.org/wiki/Haskell/Type_declarations)
+         * [Pattern matching](https://en.wikibooks.org/wiki/Haskell/Pattern_matching)
+         * [Control structures](https://en.wikibooks.org/wiki/Haskell/Control_structures)
       * **Lecture Notes**:
 1. Interlude - Recursion
     * How do programming language implement recursive functions?
