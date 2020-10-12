@@ -58,18 +58,21 @@
         * [Grammars & Semantics](notes/csc301-ln011.pdf)
         * [Programming Language Implementation](notes/csc301-ln012.pdf)
 1. Haskell
-      * Variables and functions
-      * Truth values
-      * Type basics
-      * Lists and tuples
-      * Type basics II
-      * Simple input and output
-      * Recursion
-      * Lists II (map)
-      * Lists III (folds, comprehensions)
-      * Type declarations
-      * Pattern matching
-      * Control structures
+      * The Basics
+         * Variables and functions
+         * Truth values
+         * Type basics
+         * Lists and tuples
+         * Type basics II
+         * Simple input and output
+      * Diving a Bit Deeper
+         * Recursion
+         * Lists II (map)
+         * Lists III (folds, comprehensions)
+         * Type declarations
+         * Pattern matching
+         * Control structures
+      * **Lecture Notes**:
 1. Interlude - Recursion
     * How do programming language implement recursive functions?
     * The runtime stack and stack frames
