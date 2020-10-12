@@ -56,6 +56,7 @@
         * [Formal Language Specification](notes/csc301-ln009.pdf)
         * [Grammars in Action](notes/csc301-ln010.pdf)
         * [Grammars & Semantics](notes/csc301-ln011.pdf)
+        * [Programming Language Implementation](notes/csc301-ln012.pdf)
 1. Haskell
     * Lists and tuples
     * Types and type classes
