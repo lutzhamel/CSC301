@@ -58,14 +58,18 @@
         * [Grammars & Semantics](notes/csc301-ln011.pdf)
         * [Programming Language Implementation](notes/csc301-ln012.pdf)
 1. Haskell
-    * Lists and tuples
-    * Types and type classes
-    * Functions and pattern matching
-    * Let, where, and case
-    * Recursion/thinking recursively
-    * Higher order functions (mapping)
-    * Algebraic data types
-    * Functional IO
+      * Variables and functions
+      * Truth values
+      * Type basics
+      * Lists and tuples
+      * Type basics II
+      * Simple input and output
+      * Recursion
+      * Lists II (map)
+      * Lists III (folds, comprehensions)
+      * Type declarations
+      * Pattern matching
+      * Control structures
 1. Interlude - Recursion
     * How do programming language implement recursive functions?
     * The runtime stack and stack frames
