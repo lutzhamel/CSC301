@@ -56,12 +56,6 @@
         * [Formal Language Specification](notes/csc301-ln009.pdf)
         * [Grammars in Action](notes/csc301-ln010.pdf)
         * [Grammars & Semantics](notes/csc301-ln011.pdf)
-1. Interlude - Memory management
-    * Typical process memory
-    * Explicit Memory Management vs. Garbarge Collection
-    * Parameter passing
-      * Pass by value
-      * Pass by reference
 1. Haskell
     * Lists and tuples
     * Types and type classes
@@ -75,6 +69,12 @@
     * How do programming language implement recursive functions?
     * The runtime stack and stack frames
       * Using a debugger to look at the runtime stack
+1. Interlude - Memory management
+    * Typical process memory
+    * Explicit Memory Management vs. Garbarge Collection
+    * Parameter passing
+      * Pass by value
+      * Pass by reference
 1. Interlude - Polymorphism
     * Duck typing
     * Subtype polymorphism
