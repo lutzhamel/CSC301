@@ -65,7 +65,7 @@
          * [Type Basics](https://en.wikibooks.org/wiki/Haskell/Type_basics)
          * [Lists and Tuples](https://en.wikibooks.org/wiki/Haskell/Lists_and_tuples)
          * [Type Basics II](https://en.wikibooks.org/wiki/Haskell/Type_basics_II)
-         * [Simple Input and Output](https://en.wikibooks.org/wiki/Haskell/Simple_input_and_output)
+         * [I/O](http://book.realworldhaskell.org/read/io.html)
       * Diving a Bit Deeper
          * [Recursion](https://en.wikibooks.org/wiki/Haskell/Recursion)
          * [Lists II (map)](https://en.wikibooks.org/wiki/Haskell/Lists_II)
