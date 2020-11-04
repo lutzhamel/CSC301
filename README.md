@@ -74,7 +74,8 @@
          * [Pattern matching](https://en.wikibooks.org/wiki/Haskell/Pattern_matching)
          * [Control structures](https://en.wikibooks.org/wiki/Haskell/Control_structures)
       * **Lecture Notes**:
-         * [Basics I](notes/csc301-ln013.pdf)
+      * [Basics](notes/csc301-ln013.pdf)
+      * [Lists and Tuples](notes/csc301-ln014.pdf)
 1. Interlude - Recursion
     * How do programming language implement recursive functions?
     * The runtime stack and stack frames
