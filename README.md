@@ -76,6 +76,7 @@
       * **Lecture Notes**:
       * [Basics](notes/csc301-ln013.pdf)
       * [Lists and Tuples](notes/csc301-ln014.pdf)
+      * [Funtions](notes/csc301-ln015.pdf)
 1. Interlude - Recursion
     * How do programming language implement recursive functions?
     * The runtime stack and stack frames
