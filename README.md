@@ -97,20 +97,22 @@
     * Subtype polymorphism
     * Parametric polymorphism
     * Duck typing
-1. Prolog
-    * First-order logic
-      * Predicates and quantification
-      * Modus ponens
-    * Logic programs
+    * **Lecture Notes**:
+       * [Polymorphism](notes/csc301-ln019.pdf)
+1. [Prolog](https://en.wikipedia.org/wiki/Prolog)
+    * [First-order logic](https://en.wikipedia.org/wiki/First-order_logic)
+      * [Predicates](https://en.wikipedia.org/wiki/Predicate_(mathematical_logic)) and [quantification](https://en.wikipedia.org/wiki/Quantifier_(logic))
+      * [Modus ponens](https://en.wikipedia.org/wiki/Modus_ponens)
+    * [Logic programs](https://en.wikipedia.org/wiki/Logic_programming)
       * Facts and rules
-    * Querying/executing a program
       * Proof trees
-    * Arithmetic
-    * IO
-1. Interlude - Scoping
-    * scoping rules
-    * name spaces
-    * static vs. dynamic scoping
+      * Arithmetic
+      * IO
+    * **Lecture Notes**:
+      * [Logic as a Programming Language](notes/csc301-ln020.pdf)
+      * [Rules](notes/csc301-ln021.pdf)
+      * [Arithmetic & I/O](notes/csc301-ln022.pdf)
+      * [Advanced Concepts](notes/csc301-ln023.pdf)
 1. Interlude - Formal semantics
     * Semantics via abstract interpretation
       * Operational semantics
