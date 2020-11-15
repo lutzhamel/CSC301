@@ -93,9 +93,10 @@
        * [Process Memory & Memory Management](notes/csc301-ln017.pdf)
        * [Parameter Passing](notes/csc301-ln018.pdf)
 1. Interlude - [Polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science))
-    * Duck typing
+    * Ad-hoc polymorphism
     * Subtype polymorphism
     * Parametric polymorphism
+    * Duck typing
 1. Prolog
     * First-order logic
       * Predicates and quantification
