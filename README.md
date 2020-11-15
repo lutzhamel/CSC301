@@ -82,7 +82,7 @@
     * The runtime stack and stack frames
       * Using a debugger to look at the runtime stack
     * **Lecture Notes**:
-    *[Stack & Frames](notes/csc301-ln016.pdf)
+    * [Stack & Frames](notes/csc301-ln016.pdf)
 1. Interlude - [Memory management](https://en.wikipedia.org/wiki/Memory_management)
     * Typical process memory
     * Explicit Memory Management vs. Garbarge Collection
