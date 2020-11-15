@@ -77,17 +77,22 @@
       * [Basics](notes/csc301-ln013.pdf)
       * [Lists and Tuples](notes/csc301-ln014.pdf)
       * [Funtions](notes/csc301-ln015.pdf)
-1. Interlude - Recursion
+1. Interlude - [Recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science))
     * How do programming language implement recursive functions?
     * The runtime stack and stack frames
       * Using a debugger to look at the runtime stack
-1. Interlude - Memory management
+    * **Lecture Notes**:
+    *[Stack & Frames](notes/csc301-ln016.pdf)
+1. Interlude - [Memory management](https://en.wikipedia.org/wiki/Memory_management)
     * Typical process memory
     * Explicit Memory Management vs. Garbarge Collection
-    * Parameter passing
+    * [Parameter passing](https://courses.cs.washington.edu/courses/cse341/98sp/general/parameters.html)
       * Pass by value
       * Pass by reference
-1. Interlude - Polymorphism
+    * **Lecture Notes**:
+    * [Process Memory & Memory Management](notes/csc301-ln017.pdf)
+    * [Parameter Passing](notes/csc301-ln018.pdf)
+1. Interlude - [Polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science))
     * Duck typing
     * Subtype polymorphism
     * Parametric polymorphism
