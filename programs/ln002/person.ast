@@ -1,0 +1,7 @@
+-- user defined types
+structure Person with
+  data name.
+  data profession.
+end
+
+let p:%Person = Person("Fred","Carpenter").
