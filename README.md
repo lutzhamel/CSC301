@@ -5,7 +5,7 @@
     * [Programming paradigms](https://en.wikipedia.org/wiki/Programming_paradigm)
     * Language evolution/design
     * Meet our languages:
-        * [Asteroid](https://www.asteroid-lang.org) - Object-Based, Imperative, Functional
+        * [Asteroid](https://github.com/lutzhamel/asteroid) - Object-Based, Imperative, Functional
         * [Prolog](https://www.swi-prolog.org) - Logic
     * **Lecture Notes**:
         * [Intro & Language Classes](notes/csc301-ln001.pdf)
