@@ -1,0 +1,16 @@
+-- compute the factorial
+
+load system "io".
+load system "type".
+
+function fact with n:%integer do
+  let val = 1.
+  while n > 1 do
+    let val = val*n.
+    let n = n-1.
+  end
+  return val.
+end
+
+let x = tointeger(input("Enter a positive integer: ")).
+println ("The factorial of "+x+" is "+(fact x)).

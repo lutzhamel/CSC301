@@ -1,0 +1,25 @@
+-- the bubble sort
+load system "io".
+
+function bubblesort with a:%list do
+  
+  loop
+    let i = 0.
+    let swapped = false.
+    for i in 0 to len(a)-2 do
+      if a@(i+1) <= a@i do
+        let (a@i,a@(i+1)) = (a@(i+1),a@i).
+        let swapped = true.
+      end
+    end
+    if not swapped do
+      break.
+    end
+  end
+
+  return a.
+end
+
+let l = [6,5,3,1,8,7,2,4].
+println("unsorted array: "+l).
+println("sorted array: "+(bubblesort l)).

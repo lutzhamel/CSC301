@@ -1,0 +1,22 @@
+-- rectangle structure
+load system "io".
+load system "type".
+
+structure Rectangle with
+  data xdim.
+  data ydim.
+
+  -- member function
+  function area with none do
+    return this@xdim*this@ydim.
+  end
+
+  -- constructor
+  function __init__ with (x %if isscalar(x), y %if isscalar(y)) do
+    let this@xdim = x.
+    let this@ydim = y.
+  end
+end
+
+let r = Rectangle(4,2).
+println ("The area of Rectangle ("+r@xdim+","+r@ydim+") is "+r@area()).

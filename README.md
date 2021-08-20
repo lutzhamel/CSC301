@@ -1,19 +1,18 @@
-# CSC301 - Foundations of Programming Languages
+# CSC301 - Fundamentals of Programming Languages
 
 1. Why study [programming languages](https://en.wikipedia.org/wiki/Programming_language)?
     * Communalities/differences
     * [Programming paradigms](https://en.wikipedia.org/wiki/Programming_paradigm)
     * Language evolution/design
     * Meet our languages:
-        * [Rust](https://www.rust-lang.org) - OO/Imperative
-        * [Haskell](https://www.haskell.org) - Functional
+        * [Asteroid](https://www.asteroid-lang.org) - Object-Based, Imperative, Functional
         * [Prolog](https://www.swi-prolog.org) - Logic
     * **Lecture Notes**:
-        * [Intro & Languages Classes](notes/csc301-ln001.pdf)
-1. [Rust](https://www.rust-lang.org)
-    * [The basics](https://stevedonovan.github.io/rust-gentle-intro/1-basics.html)
+        * [Intro & Language Classes](notes/csc301-ln001.pdf)
+1. [Asteroid](https://www.asteroid-lang.org)
+    * [The basics](https://github.com/lutzhamel/asteroid/blob/master/Asteroid%20User%20Guide.md)
     * **Lecture Notes**:
-        * [Rust Basics](notes/csc301-ln002.pdf)
+        * [Asteroid Basics](notes/csc301-ln002.pdf)
 1. Interlude - [Types and type systems](https://en.wikipedia.org/wiki/Type_system)
     * Type checking
         * static vs dynamic
