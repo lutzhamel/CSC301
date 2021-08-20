@@ -9,7 +9,7 @@
         * [Prolog](https://www.swi-prolog.org) - Logic
     * **Lecture Notes**:
         * [Intro & Language Classes](notes/csc301-ln001.pdf)
-1. [Asteroid](https://www.asteroid-lang.org)
+1. [Asteroid](https://github.com/lutzhamel/asteroid)
     * [The basics](https://github.com/lutzhamel/asteroid/blob/master/Asteroid%20User%20Guide.md)
     * **Lecture Notes**:
         * [Asteroid Basics](notes/csc301-ln002.pdf)
