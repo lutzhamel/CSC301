@@ -47,27 +47,27 @@
         * [Grammars in Action](notes/csc301-ln010.pdf)
         * [Grammars & Semantics](notes/csc301-ln011.pdf)
         * [Programming Language Implementation](notes/csc301-ln012.pdf)
-<!--
-1. Haskell
-      * The Basics
-         * [Getting Started](https://en.wikibooks.org/wiki/Haskell/Getting_set_up)
-         * [Variables and Functions](https://en.wikibooks.org/wiki/Haskell/Variables_and_functions)
-         * [Truth Values](https://en.wikibooks.org/wiki/Haskell/Truth_values)
-         * [Type Basics](https://en.wikibooks.org/wiki/Haskell/Type_basics)
-         * [Lists and Tuples](https://en.wikibooks.org/wiki/Haskell/Lists_and_tuples)
-         * [Type Basics II](https://en.wikibooks.org/wiki/Haskell/Type_basics_II)
-         * [I/O](http://book.realworldhaskell.org/read/io.html)
-      * Diving a Bit Deeper
-         * [Recursion](https://en.wikibooks.org/wiki/Haskell/Recursion)
-         * [Lists II (map)](https://en.wikibooks.org/wiki/Haskell/Lists_II)
-         * [Lists III (folds, comprehensions)](https://en.wikibooks.org/wiki/Haskell/Lists_III)
-         * [Type Declarations](https://en.wikibooks.org/wiki/Haskell/Type_declarations)
-         * [Pattern matching](https://en.wikibooks.org/wiki/Haskell/Pattern_matching)
-         * [Control structures](https://en.wikibooks.org/wiki/Haskell/Control_structures)
-      * **Lecture Notes**:
-         * [Basics](notes/csc301-ln013.pdf)
-         * [Lists and Tuples](notes/csc301-ln014.pdf)
-         * [Functions](notes/csc301-ln015.pdf)
+1. Functional Programming with Asteroid
+    * Pattern matching - A functional programming invention
+        * Primitive data types
+        * Lists & Tuples
+        * Constructed data types
+    * Multi-dispatch with pattern matching
+        * A declarative way to think about function definitions
+    * Constraint-patterns
+        * Type match patterns
+        * Conditional patterns
+        * Constraint-only patterns
+    * Recursion
+        * Head-tail pattern
+        * Recursion on lists
+    * Higher-order programming - Another functional programming invention
+        * The `lambda` function
+        * `map` and `reduce`
+        * Function currying
+            * working with partially evaluated functions
+    * **Lecture Notes**
+        * <more to come here>
 1. Interlude - [Recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science))
     * How do programming language implement recursive functions?
     * The runtime stack and stack frames
@@ -109,4 +109,3 @@
       * Operational semantics
     * Building abstract interpreters using Prolog
 1. Semester Review
--->
