@@ -67,7 +67,7 @@
         * Function currying
             * working with partially evaluated functions
     * **Lecture Notes**
-        * <more to come here>
+        * ...more to come here...
 1. Interlude - [Recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science))
     * How do programming language implement recursive functions?
     * The runtime stack and stack frames
