@@ -25,7 +25,7 @@
     * Lists & Tuples
     * Constructed types
     * **Lecture Notes**:
-        * [Asteroid Types]()
+        * [Asteroid Types](notes/csc301-ln004.pdf)
 1. Interlude - Language specification & Implementation
     * [Programming Language Specification](https://en.wikipedia.org/wiki/Programming_language_specification)
         * [Syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
