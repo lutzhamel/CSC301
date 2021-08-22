@@ -20,21 +20,12 @@
     * Type inference
     * **Lecture Notes**:
         * [Types](notes/csc301-ln003.pdf)
-1. More on [Rust](https://www.rust-lang.org)
-    * [Objects and traits](https://en.wikipedia.org/wiki/Trait_(computer_programming))
-    * [Generics](https://en.wikipedia.org/wiki/Generic_programming)
-    * [Pattern matching](https://en.wikipedia.org/wiki/Pattern_matching) oriented programming
-    * The Rust standard library: [std](https://doc.rust-lang.org/std/index.html)
-        * Strings
-        * I/O
-    * [Higher-order functions](https://en.wikipedia.org/wiki/Higher-order_function)
-    * [Iterators](https://en.wikipedia.org/wiki/Iterator) (internal/external)
+1. Exploring more of Asteroid's Types
+    * Primitive types
+    * Lists & Tuples
+    * Constructed types
     * **Lecture Notes**:
-        * [Objects and Traits](notes/csc301-ln004.pdf)
-        * [Generics](notes/csc301-ln005.pdf)
-        * [Pattern Matching](notes/csc301-ln006.pdf)
-        * [The Standard Library](notes/csc301-ln007.pdf)
-        * [Higher-Order Functions & Iterators](notes/csc301-ln008.pdf)
+        * [Asteroid Types]()
 1. Interlude - Language specification & Implementation
     * [Programming Language Specification](https://en.wikipedia.org/wiki/Programming_language_specification)
         * [Syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
@@ -56,6 +47,7 @@
         * [Grammars in Action](notes/csc301-ln010.pdf)
         * [Grammars & Semantics](notes/csc301-ln011.pdf)
         * [Programming Language Implementation](notes/csc301-ln012.pdf)
+<!--
 1. Haskell
       * The Basics
          * [Getting Started](https://en.wikibooks.org/wiki/Haskell/Getting_set_up)
@@ -117,3 +109,4 @@
       * Operational semantics
     * Building abstract interpreters using Prolog
 1. Semester Review
+-->
