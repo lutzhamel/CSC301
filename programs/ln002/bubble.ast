@@ -2,9 +2,8 @@
 load system "io".
 
 function bubblesort with a:%list do
-  
+
   loop
-    let i = 0.
     let swapped = false.
     for i in 0 to len(a)-2 do
       if a@(i+1) <= a@i do
