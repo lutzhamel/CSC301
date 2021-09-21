@@ -26,7 +26,6 @@
     * Constructed types
     * **Lecture Notes**:
         * [Asteroid Types](notes/csc301-ln004.pdf)
-<!--
 1. Interlude - Language specification & Implementation
     * [Programming Language Specification](https://en.wikipedia.org/wiki/Programming_language_specification)
         * [Syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
@@ -48,6 +47,7 @@
         * [Grammars in Action](notes/csc301-ln010.pdf)
         * [Grammars & Semantics](notes/csc301-ln011.pdf)
         * [Programming Language Implementation](notes/csc301-ln012.pdf)
+<!--
 1. Functional Programming with Asteroid
     * Pattern matching - A functional programming invention
         * Primitive data types
