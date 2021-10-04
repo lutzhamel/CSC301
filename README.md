@@ -47,7 +47,7 @@
         * [Grammars in Action](notes/csc301-ln010.pdf)
         * [Grammars & Semantics](notes/csc301-ln011.pdf)
         * [Programming Language Implementation](notes/csc301-ln012.pdf)
-<!--
+
 1. Functional Programming with Asteroid
     * Pattern matching - A functional programming invention
         * Primitive data types
@@ -110,6 +110,5 @@
       * Operational semantics
     * Building abstract interpreters using Prolog
 1. Semester Review
--->
 
 These lecture notes are released under the [CC-BY-NC-ND license](https://creativecommons.org/licenses/by-nc-nd/3.0/us/legalcode)
