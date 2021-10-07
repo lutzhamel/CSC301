@@ -109,7 +109,11 @@
 1. Interlude - Formal semantics
     * Semantics via abstract interpretation
       * Operational semantics
-    * Building abstract interpreters using Prolog
+      * Building abstract interpreters using Prolog
+    * **Lecture Notes**:
+      * [Simple Operational Semantics](notes/csc301-ln024.pdf)
+      * [The Semantics of Variables](notes/csc301-ln025.pdf)
+
 1. Semester Review
 
 These lecture notes are released under the [CC-BY-NC-ND license](https://creativecommons.org/licenses/by-nc-nd/3.0/us/legalcode)
