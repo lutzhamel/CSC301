@@ -47,20 +47,21 @@
         * [Grammars in Action](notes/csc301-ln010.pdf)
         * [Grammars & Semantics](notes/csc301-ln011.pdf)
         * [Programming Language Implementation](notes/csc301-ln012.pdf)
-
 1. Functional Programming with Asteroid
+    * [Functional programming](https://en.wikipedia.org/wiki/Functional_programming) is defined by two things:
+        * Programs consist of recursive definitions of functions
+        * Functions are first-class citizens of the language
     * Pattern matching - A functional programming invention
-        * Primitive data types
         * Lists & Tuples
         * Constructed data types
-    * Multi-dispatch with pattern matching
-        * A declarative way to think about function definitions
-    * Constraint-patterns
+    * Special Patterns
+        * Wild card patterns
+        * Constraint patterns
         * Type match patterns
         * Conditional patterns
-        * Constraint-only patterns
+    * Multi-dispatch with pattern matching
+        * A declarative way to think about function definitions
     * Recursion
-        * Head-tail pattern
         * Recursion on lists
     * Higher-order programming - Another functional programming invention
         * The `lambda` function
@@ -68,7 +69,7 @@
         * Function currying
             * working with partially evaluated functions
     * **Lecture Notes**
-        * ...more to come here...
+        * [Pattern Matching](notes/csc301-ln013.pdf)
 1. Interlude - [Recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science))
     * How do programming language implement recursive functions?
     * The runtime stack and stack frames
@@ -77,7 +78,7 @@
        * [Stack & Frames](notes/csc301-ln016.pdf)
 1. Interlude - [Memory management](https://en.wikipedia.org/wiki/Memory_management)
     * Typical process memory
-    * Explicit Memory Management vs. Garbarge Collection
+    * Explicit Memory Management vs. Garbage Collection
     * [Parameter passing](https://courses.cs.washington.edu/courses/cse341/98sp/general/parameters.html)
        * Pass by value
        * Pass by reference

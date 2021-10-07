@@ -1,0 +1,18 @@
+-- typematch patterns
+
+-- works with primitive types
+let %integer = 1.
+let %real = 2.0.
+let %string = "Hello There!".
+
+-- works with user defined types
+structure A with
+    data a.
+    data b.
+end
+
+let %A = A(1,2).
+
+-- typematch patterns together with constraint patterns
+-- allow us to limit what is stored in a variable
+let i:%integer = 1.

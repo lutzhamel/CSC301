@@ -1,0 +1,11 @@
+-- multi-dispatch implementation of factorial
+
+function fact
+  with 0 do
+    return 1.
+  orwith n do
+    return n*fact(n-1).
+  end
+
+let v = fact(3).
+assert(v==6).

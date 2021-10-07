@@ -1,0 +1,10 @@
+-- double the values on a list
+
+function double
+  with [] do
+    return [].
+  orwith [h|t] do
+    return [2*h] + double t.
+  end
+
+assert(double [1,2,3] == [2,4,6]).

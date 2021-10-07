@@ -1,0 +1,5 @@
+-- the head-tail operator
+
+-- we can run the head-tail operator in reverse
+-- to construct lists.
+let [1,2,3] = [1|[2,3]].

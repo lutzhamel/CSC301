@@ -1,0 +1,7 @@
+-- wild card pattern matching
+
+-- we want to ensure that the second component
+-- is a pair but don't care what the pair looks like
+let (x,(_,_)) = (1,(2,3)).             -- succeeds
+let (x,(_,_)) = (1,("hello","there")). -- succeeds
+let (x,(_,_)) = (1,2,3).               -- fails

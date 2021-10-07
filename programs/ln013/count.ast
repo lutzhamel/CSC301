@@ -1,0 +1,10 @@
+-- counting elements on a list functional style
+
+function count
+  with [] do
+    return 0.
+  orwith [_|t] do
+    return 1+count(t).
+  end
+
+assert(count [1,2,3] == 3).

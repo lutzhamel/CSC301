@@ -1,0 +1,10 @@
+-- first-class functions
+
+-- define our increment function
+function inc with i do
+    return i+1.
+end
+
+let foo = inc.  -- foo now holds a function value
+let x = foo 1.  -- execute the function in foo with value 1
+assert(x == 2).

@@ -1,0 +1,14 @@
+-- constraint patterns
+load system "io".
+
+-- define two different 'add' trees
+let t1 = ("add",1,2).
+let t2 = ("add",("*",3,2),2).
+
+-- we use the pattern to make sure that it is
+-- an 'add' tree that we store in 'tree'
+let tree:("add",_,_) = t1.
+println("matched tree: "+tree).
+
+let tree:("add",_,_) = t2.
+println("matched tree: "+tree).
