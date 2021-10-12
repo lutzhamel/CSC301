@@ -70,6 +70,7 @@
             * working with partially evaluated functions
     * **Lecture Notes**
         * [Pattern Matching](notes/csc301-ln013.pdf)
+        * Higher-Order Programming
 1. Interlude - [Recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science))
     * How do programming language implement recursive functions?
     * The runtime stack and stack frames

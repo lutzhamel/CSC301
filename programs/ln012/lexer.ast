@@ -32,4 +32,8 @@ structure Lexer with
       end
     end
 
+    function __init__ with char_stream:%string do
+      let this @token_stream = tokenize(char_stream).
+    end
+
 end -- structure

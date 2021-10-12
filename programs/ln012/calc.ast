@@ -85,9 +85,8 @@ function rootexp
 -------------------------------------------------------------------------
 -- driver part of the script
 
--- tokenize input
 let input = read().
-let lexer = Lexer(tokenize(input)).
+let lexer = Lexer(input).
 
 -- parse and interpret input
 let val = expression(lexer).
