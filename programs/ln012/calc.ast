@@ -11,13 +11,13 @@ load "lexer".
 
 -------------------------------------------------------------------------
 -- A recursive descent parser implementing the following grammar:
--- <expression> ::= <mulexp> { ('+' <mulexp>) | ('-' <mulexp>) }
--- <mulexp>     ::= <rootexp> { ('*' <rootexp>) | ('/' <rootexp>) }
--- <rootexp>    ::= number | '-' <rootexp> | '(' <expression> ')'
+-- <expression> ::= <mulexp> { (+ <mulexp>) | (- <mulexp>) }
+-- <mulexp>     ::= <rootexp> { (\* <rootexp>) | (/ <rootexp>) }
+-- <rootexp>    ::= number | - <rootexp> | \( <expression> \)
 -- The parser implements arithmetic on integer values
 
-function expression
-  with lexer:%Lexer do
+function expression with lexer do
+    -- <expression> ::= <mulexp> { (+ <mulexp>) | (- <mulexp>) }
     let val = mulexp(lexer).
     loop do
       let token = lexer @peek().
@@ -36,12 +36,9 @@ function expression
     return val.
   end
 
-function mulexp
-  with lexer:%Lexer do
+function mulexp with lexer do
+    -- <mulexp>     ::= <rootexp> { (\* <rootexp>) | (/ <rootexp>) }
     let val = rootexp(lexer).
-    if not lexer @peek() do
-      return val.
-    end
     loop do
       let token = lexer @peek().
       if not token do
@@ -59,20 +56,19 @@ function mulexp
     return val.
   end
 
-function rootexp
-  with lexer:%Lexer do
-    try
-      let Token(type,val) = lexer @peek().
-    catch _ do
-      return none.
-    end
-    if type == "number" do
-      lexer @token_match("number").
+function rootexp with lexer do
+    -- <rootexp>    ::= number | - <rootexp> | \( <expression> \)
+    let token = lexer @peek().
+    if not token do
+      throw Error("syntax error: expected rootexp")
+    elif token @type == "number" do
+      let val = lexer @token_match("number") @value. 
       return val.
-    elif type == "sub" do
+    elif token @type == "sub" do
       lexer @token_match("sub").
-      return - rootexp(lexer).
-    elif type == "lparen" do
+      let val = rootexp(lexer)
+      return - val.
+    elif token @type == "lparen" do
       lexer @token_match("lparen").
       let val = expression(lexer).
       lexer @token_match("rparen").
@@ -90,7 +86,7 @@ let lexer = Lexer(input).
 
 -- parse and interpret input
 let val = expression(lexer).
-if not (lexer @eof()) do
+if not lexer @eof() do
   throw Error("tokens still in input stream")
 end
 
