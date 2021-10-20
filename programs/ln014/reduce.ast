@@ -1,0 +1,4 @@
+
+let 6 = [1,2,3] @reduce(lambda with (acc,v) do return acc+v).
+
+let 10 = [1,2,3] @reduce((lambda with (acc,v) do return acc+v), 4).

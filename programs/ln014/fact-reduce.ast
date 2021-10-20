@@ -1,0 +1,6 @@
+-- factorial implementation using reduce
+
+let x = 3.
+let fact = [1 to x] @reduce(lambda with (acc,j) do return acc*j).
+
+assert(fact == 6).

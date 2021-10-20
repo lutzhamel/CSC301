@@ -1,0 +1,17 @@
+------------------------------------------------------------------
+function reduce
+------------------------------------------------------------------
+-- Note: first arg to f is the accumulator
+with (f:%function,l:%list) do
+    let value = this@0.
+    for i in 1 to this@length()-1 do
+        let value = f(value,this@i).
+    end
+    return value.
+orwith (f:%function,l:%list,init) do
+    let value = init.
+    for i in 0 to this@length()-1 do
+        let value = f(value,this@i).
+    end
+    return value.
+end

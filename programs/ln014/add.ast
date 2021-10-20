@@ -1,0 +1,19 @@
+function add with (a,b) do
+  return a+b.
+end
+
+function addc with a do
+  return (lambda with b do return a+b).
+end
+
+let sum = add(1,2).
+let sumc = addc 1 2.
+
+assert(sum == 3).
+assert(sumc == 3).
+
+-- partially evaluated functions!
+let partial = addc 1.
+let final = partial 2.
+
+assert(final == 3).

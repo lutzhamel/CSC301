@@ -1,0 +1,11 @@
+------------------------------------------------------------------
+function map
+------------------------------------------------------------------
+-- Apply f to each element of the list l
+with (f:%function,l:%list) do
+    let r = [].
+    for i in l do
+        r @append(f i).
+    end
+    return r.
+end

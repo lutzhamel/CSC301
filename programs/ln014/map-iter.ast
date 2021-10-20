@@ -1,0 +1,12 @@
+-- compute a list whose elements are incremented
+-- by one compared to the input list
+
+let a = [1,2,3].
+let b = [].
+
+-- iterate over the list
+for e in a do
+  b @append(e+1).
+end
+
+assert(b == [2,3,4]).
