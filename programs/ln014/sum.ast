@@ -1,0 +1,14 @@
+-- demonstration of currying with 3 args
+
+function sum with (a,b,c) do
+  return a+b+c.
+end
+
+function sumc with a do
+  return lambda with b do
+    return lambda with c do
+      return a+b+c
+end
+
+assert( sum(1,2,3) == 6 ).
+assert( sumc 1 2 3 == 6 ).
