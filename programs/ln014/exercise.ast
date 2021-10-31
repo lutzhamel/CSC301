@@ -1,0 +1,31 @@
+-- in-class exercise for higher-order programming
+
+function inc_list with input_list do
+  let output_list = [].
+  for e in input_list do
+    output_list @append(e+1).
+  end
+  return output_list.
+end
+
+let l = [1,2,3].
+let new_list = inc_list(l).
+assert(new_list == [2,3,4]).
+
+
+function inc_listr
+  with [] do
+    return [].
+  orwith [a|b] do
+    return [a+1] + inc_listr(b).
+  end
+
+let new_list = inc_listr(l).
+assert(new_list == [2,3,4]).
+
+function inc_list_map with input_list do
+ return input_list @map(lambda with x do return x+1).
+end
+
+let new_list = inc_list_map(l).
+assert(new_list == [2,3,4]).
