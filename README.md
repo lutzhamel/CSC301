@@ -1,5 +1,10 @@
 # CSC301 - Fundamentals of Programming Languages
 
+<!--
+NOTES:
+* delete grammars and semantics
+* move functional programming after Asteroid types
+-->
 1. Why study [programming languages](https://en.wikipedia.org/wiki/Programming_language)?
     * Communalities/differences
     * [Programming paradigms](https://en.wikipedia.org/wiki/Programming_paradigm)
@@ -113,7 +118,7 @@
       * Building abstract interpreters using Prolog
     * **Lecture Notes**:
       * [Simple Operational Semantics](notes/csc301-ln024.pdf)
-      * [The Semantics of Variables](notes/csc301-ln025.pdf)
+      <!-- * [The Semantics of Variables](notes/csc301-ln025.pdf) -->
 
 1. Semester Review
 
