@@ -1,0 +1,10 @@
+function average with input do
+  let sum = 0.
+  for e in input do
+    let sum = sum + e.
+  end
+  return sum/len(input).
+end
+
+let l = [1,2,3].
+assert(average(l) == 2).

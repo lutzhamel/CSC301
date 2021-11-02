@@ -1,0 +1,26 @@
+-- rewrite the filter function as a recursive function
+
+-- return a list of values of the input list
+-- whose values are less than the pivot value
+function filter with (input,pivot) do
+  let output = [].
+  for e in input do
+    if e < pivot do
+      output @append(e).
+    end
+  end
+  return output.
+end
+
+let l = [1,2,3,4,5,6].
+assert(filter(l,3) == [1,2]).
+
+
+function filterr
+  with ([],_) do
+    return [].
+  orwith ([e|t],pivot) do
+    return [e] + filterr(t,pivot) if e < pivot else filterr(t,pivot).
+  end
+
+assert(filterr(l,3) == [1,2]).

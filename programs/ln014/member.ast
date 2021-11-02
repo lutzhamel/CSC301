@@ -1,0 +1,13 @@
+
+function member with (input,m) do
+  for e in input do
+    if e == m do
+      return true.
+    end
+  end
+  return false.
+end
+
+let l = [1,2,3].
+assert(member(l,2) == true).
+assert(member(l,5) == false).

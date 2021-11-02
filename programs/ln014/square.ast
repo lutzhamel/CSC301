@@ -1,0 +1,12 @@
+
+function square with input do
+  let output = [].
+  for e in input do
+    output @append(e*e).
+  end
+  return output.
+end
+
+let l = [1,2,3].
+let new_list = square(l).
+assert(new_list == [1,4,9]).
