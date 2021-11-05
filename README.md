@@ -2,8 +2,11 @@
 
 <!--
 NOTES:
+* do type stuff in C
 * delete grammars and semantics
+* move grammar and implementation stuff to the end of the course with prolog semantics
 * move functional programming after Asteroid types
+* nice material on python gc: https://stackify.com/python-garbage-collection/
 -->
 1. Why study [programming languages](https://en.wikipedia.org/wiki/Programming_language)?
     * Communalities/differences
