@@ -1,4 +1,4 @@
-# CSC301 - Fundamentals of Programming Languages
+# Fundamentals of Programming Languages
 
 <!--
 NOTES:
