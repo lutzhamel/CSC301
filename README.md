@@ -10,7 +10,7 @@ NOTES:
 
 ## Introduction
 
-1. Why study [programming languages](https://en.wikipedia.org/wiki/Programming_language)?
+### Why study [programming languages](https://en.wikipedia.org/wiki/Programming_language)?
     * Communalities/differences
     * [Programming paradigms](https://en.wikipedia.org/wiki/Programming_paradigm)
     * Language evolution/design
@@ -92,6 +92,13 @@ NOTES:
 
 ## Memory
 
+1. [Parameter passing](https://courses.cs.washington.edu/courses/cse341/98sp/general/parameters.html)
+    * Pass by value
+    * Pass by reference
+    * **Lecture Notes**:
+       * [Parameter Passing](notes/csc301-ln018.pdf)
+
+
 1. [Recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science))
     * How do programming language implement recursive functions?
     * The runtime stack and stack frames
@@ -105,11 +112,6 @@ NOTES:
     * **Lecture Notes**:
        * [Process Memory & Memory Management](notes/csc301-ln017.pdf)
 
-1. [Parameter passing](https://courses.cs.washington.edu/courses/cse341/98sp/general/parameters.html)
-       * Pass by value
-       * Pass by reference
-    * **Lecture Notes**:
-       * [Parameter Passing](notes/csc301-ln018.pdf)
 
 ## Theory and Implementation
 
