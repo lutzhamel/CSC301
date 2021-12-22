@@ -10,15 +10,15 @@ NOTES:
 
 ## Introduction
 
-### Why study [programming languages](https://en.wikipedia.org/wiki/Programming_language)?
-    * Communalities/differences
-    * [Programming paradigms](https://en.wikipedia.org/wiki/Programming_paradigm)
-    * Language evolution/design
-    * Meet our languages:
-        * [Asteroid](https://github.com/lutzhamel/asteroid) - Object-Based, Imperative, Functional
-        * [Prolog](https://www.swi-prolog.org) - Logic
-    * **Lecture Notes**:
-        * [Intro & Language Classes](notes/csc301-ln001.pdf)
+#### Why study [programming languages](https://en.wikipedia.org/wiki/Programming_language)?
+* Communalities/differences
+* [Programming paradigms](https://en.wikipedia.org/wiki/Programming_paradigm)
+* Language evolution/design
+* Meet our languages:
+    * [Asteroid](https://github.com/lutzhamel/asteroid) - Object-Based, Imperative, Functional
+    * [Prolog](https://www.swi-prolog.org) - Logic
+* **Lecture Notes**:
+    * [Intro & Language Classes](notes/csc301-ln001.pdf)
 
 ## Programming and Types
 
