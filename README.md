@@ -14,13 +14,15 @@ NOTES:
 * Communalities/differences
 * [Programming paradigms](https://en.wikipedia.org/wiki/Programming_paradigm)
 * Language evolution/design
-* Meet our languages:
-    * [Asteroid](https://github.com/lutzhamel/asteroid) - Object-Based, Imperative, Functional
-    * [Prolog](https://www.swi-prolog.org) - Logic
-* **Lecture Notes**:
-    * [Intro & Language Classes](notes/csc301-ln001.pdf)
 
-## Programming and Types
+#### Meet our languages:
+* [Asteroid](https://github.com/lutzhamel/asteroid) - Object-Based, Imperative, Functional
+* [Prolog](https://www.swi-prolog.org) - Logic
+
+#### Lecture Notes
+* [Intro & Language Classes](notes/csc301-ln001.pdf)
+
+## Programming & Types
 
 1. [Asteroid](https://github.com/lutzhamel/asteroid)
     * [The basics](https://github.com/lutzhamel/asteroid/blob/master/Asteroid%20User%20Guide.md)
