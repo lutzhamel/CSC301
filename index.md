@@ -4,6 +4,8 @@
 
 # Fundamentals of Programming Languages
 
+[Syllabus](docs/syllabus.pdf)
+
 <!--
 NOTES:
 * do type stuff in C
