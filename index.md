@@ -71,7 +71,7 @@ NOTES:
     * [Pattern Matching](notes/csc301-ln013.pdf)
     * [Higher-Order Programming](notes/csc301-ln014.pdf)
 
-#### Polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science))
+#### [Polymorphism](https://en.wikipedia.org/wiki/Polymorphism_(computer_science))
 * Ad-hoc polymorphism
 * Subtype polymorphism
 * Parametric polymorphism
