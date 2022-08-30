@@ -1,3 +1,7 @@
+<center>
+<img src="image.jpeg">
+</center>
+
 # Fundamentals of Programming Languages
 
 <!--
