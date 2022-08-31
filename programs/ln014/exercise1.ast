@@ -16,7 +16,7 @@ assert(new_list == [2,3,4]).
 function inc_listr
   with [] do
     return [].
-  orwith [a|b] do
+  with [a|b] do
     return [a+1] + inc_listr(b).
   end
 

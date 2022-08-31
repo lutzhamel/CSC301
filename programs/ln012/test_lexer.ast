@@ -1,12 +1,12 @@
 -- test the lexer
 
-load system "io".
-load "lexer".
+load system io.
+load lexer.
 
-let input = read().
+let input = io @read().
 let lexer = Lexer(input).
 
 while not lexer @eof() do
   let t = lexer @get(). -- get a token
-  println t.
+  io @println t.
 end

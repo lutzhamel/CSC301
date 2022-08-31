@@ -8,7 +8,7 @@ with (f:%function,l:%list) do
         let value = f(value,this@i).
     end
     return value.
-orwith (f:%function,l:%list,init) do
+with (f:%function,l:%list,init) do
     let value = init.
     for i in 0 to this@length()-1 do
         let value = f(value,this@i).

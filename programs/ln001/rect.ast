@@ -1,6 +1,6 @@
 -- simple object-based program
 
-load system "io".
+load system io.
 
 -- define our rectangular structure with member functions
 structure Rect with
@@ -9,9 +9,9 @@ structure Rect with
 
   -- return the area of the rectangle
   function area with none do
-    return this@xdim * this@ydim.
+    return this @xdim * this @ydim.
   end
 end
 
 let r = Rect(4,2).
-println ("The area of rectangle <"+r@xdim+","+r@ydim+"> is "+r@area()).
+io @println ("The area of rectangle <"+r @xdim+","+r @ydim+"> is "+r @area()).

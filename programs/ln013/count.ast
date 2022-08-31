@@ -3,7 +3,7 @@
 function count
   with [] do
     return 0.
-  orwith [_|t] do
+  with [_|t] do
     return 1+count(t).
   end
 

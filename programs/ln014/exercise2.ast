@@ -19,7 +19,7 @@ assert(filter(l,3) == [1,2]).
 function filterr
   with ([],_) do
     return [].
-  orwith ([e|t],pivot) do
+  with ([e|t],pivot) do
     return [e] + filterr(t,pivot) if e < pivot else filterr(t,pivot).
   end
 

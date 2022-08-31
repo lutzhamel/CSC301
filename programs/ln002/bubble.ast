@@ -1,5 +1,5 @@
 -- the bubble sort
-load system "io".
+load system io.
 
 function bubblesort with a:%list do
 
@@ -20,5 +20,5 @@ function bubblesort with a:%list do
 end
 
 let l = [6,5,3,1,8,7,2,4].
-println("unsorted array: "+l).
-println("sorted array: "+(bubblesort l)).
+io @println("unsorted array: "+l).
+io @println("sorted array: "+(bubblesort l)).

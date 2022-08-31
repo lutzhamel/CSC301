@@ -1,5 +1,5 @@
 -- rectangle structure
-load system "io".
+load system io.
 
 structure Rectangle with
   data xdim.
@@ -7,4 +7,4 @@ structure Rectangle with
 end
 
 let r = Rectangle(4,2). 
-println ("Rectangle with x="+r@xdim+" and y="+r@ydim).
+io @println ("Rectangle with x="+r@xdim+" and y="+r@ydim).

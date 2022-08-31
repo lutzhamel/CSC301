@@ -3,7 +3,7 @@
 function double
   with [] do
     return [].
-  orwith [h|t] do
+  with [h|t] do
     return [2*h] + double t.
   end
 

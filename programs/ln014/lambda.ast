@@ -1,4 +1,4 @@
-load system "io".
+load system io.
 
 let y = (lambda with x do return x+1) 1.
-println y. -- print out the value 2
+io @println y. -- print out the value 2

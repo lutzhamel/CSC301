@@ -6,8 +6,8 @@
 -- provided input you will have to type <CR><Cntrl-D>
 -- Lutz Hamel, (c) University of Rhode Island
 
-load "io".
-load "lexer".
+load io.
+load lexer.
 
 -------------------------------------------------------------------------
 -- A recursive descent parser implementing the following grammar:
@@ -81,7 +81,7 @@ function rootexp with lexer do
 -------------------------------------------------------------------------
 -- driver part of the script
 
-let input = read().
+let input = io @read().
 let lexer = Lexer(input).
 
 -- parse and interpret input
@@ -91,4 +91,4 @@ if not lexer @eof() do
 end
 
 -- print out the final value of the parsed and interpreted expression
-println ("=> "+val).
+io @println ("=> "+val).

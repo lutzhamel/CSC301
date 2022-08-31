@@ -1,7 +1,7 @@
 -- compute the factorial
 
-load system "io".
-load system "type".
+load system io.
+load system type.
 
 function fact with n:%integer do
   let val = 1.
@@ -12,5 +12,5 @@ function fact with n:%integer do
   return val.
 end
 
-let x = tointeger(input("Enter a positive integer: ")).
-println ("The factorial of "+x+" is "+(fact x)).
+let x = type @tointeger(io @input("Enter a positive integer: ")).
+io @println ("The factorial of "+x+" is "+(fact x)).

@@ -1,21 +1,21 @@
-load system "io".
-load system "type".
+load system io.
+load system type.
 
 let i:%integer = 1.
 let k:%real = 3.1 + i.
-println k.
+io @println k.
 
 let l:%list = [1,2,3].
 let r:%list = l@reverse().
-println ("The reversed list is "+r).
+io @println ("The reversed list is "+r).
 
 let l:%list = [1,2.0,"three"].
-println l.
+io @println l.
 
 try
   let (x,y) = (1,2,3).
 catch _ do
-  println ("error: tuples are incompatible").
+  io @println ("error: tuples are incompatible").
 end
 
 structure Type1 with
@@ -31,5 +31,5 @@ end
 try
   let q:%Type2 = Type1(1,2).
 catch _ do
-  println "error: types not compatible".
+  io @println "error: types not compatible".
 end
