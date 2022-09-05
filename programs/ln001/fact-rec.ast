@@ -6,7 +6,7 @@ load system type.
 function fact
   with 1 do
     return 1
-  with n:%integer do
+  with n do
     return n*fact(n-1).
 end
 
