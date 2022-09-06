@@ -3,7 +3,7 @@
 load system io.
 load system type.
 
-function fact with n:%integer do
+function fact with n do
   let val = 1.
   while n > 1 do
     let val = val*n.

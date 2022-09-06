@@ -1,13 +1,13 @@
 -- the bubble sort
 load system io.
 
-function bubblesort with a:%list do
+function bubblesort with l do
 
   loop
     let swapped = false.
-    for i in 0 to len(a)-2 do
-      if a@(i+1) <= a@i do
-        let (a@i,a@(i+1)) = (a@(i+1),a@i).
+    for i in 0 to len(l)-2 do
+      if l@(i+1) <= l@i do
+        let (l@i,l@(i+1)) = (l@(i+1),l@i).
         let swapped = true.
       end
     end
@@ -16,9 +16,9 @@ function bubblesort with a:%list do
     end
   end
 
-  return a.
+  return l.
 end
 
-let l = [6,5,3,1,8,7,2,4].
-io @println("unsorted array: "+l).
-io @println("sorted array: "+(bubblesort l)).
+let k = [6,5,3,1,8,7,2,4].
+io @println("unsorted array: "+k).
+io @println("sorted array: "+(bubblesort k)).
