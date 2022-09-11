@@ -4,6 +4,5 @@ structure Person with
   data profession.
 end
 
-let p = Person("Fred","Carpenter").
+let p:%Person = Person("Fred","Carpenter").
 assert(p is Person("Fred","Carpenter")).
-

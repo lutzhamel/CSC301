@@ -7,14 +7,8 @@ structure Rectangle with
   data ydim.
 
   -- member function
-  function area with none do
+  function area with () do
     return this@xdim * this@ydim.
-  end
-
-  -- constructor
-  function __init__ with (x if type @isscalar(x), y if type @isscalar(y)) do
-    let this@xdim = x.
-    let this@ydim = y.
   end
 end
 
