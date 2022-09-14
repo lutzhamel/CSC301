@@ -1,3 +1,2 @@
 load system io.
-
 io @println("Hello World!").
