@@ -1,0 +1,7 @@
+-- factorial with if-exp
+
+function fact with n do
+  return 1 if n==1 else n*fact(n-1).
+end
+
+assert(fact(3) == 6).

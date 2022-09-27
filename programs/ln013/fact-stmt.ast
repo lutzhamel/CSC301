@@ -1,0 +1,11 @@
+-- factorial with if-stmt
+
+function fact with n do
+  if n == 1 do
+    return 1.
+  else
+    return n * fact(n-1).
+  end
+end
+
+assert(fact(3) == 6).

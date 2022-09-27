@@ -1,0 +1,7 @@
+-- sum the integer values on a list
+
+function listsum with l do
+  0 if l==[] else hd(l)+listsum(tl(l)).
+end
+
+assert(listsum([1,2,3]) == 6).

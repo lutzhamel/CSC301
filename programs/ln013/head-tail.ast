@@ -1,5 +1,0 @@
--- the head-tail operator
-
-let l = [1,2,3].
-let [h|t] = l.
-assert(h==1 and t==[2,3]).

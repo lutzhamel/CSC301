@@ -1,4 +1,0 @@
--- pattern matching on nested structures
-
-let ((a,_),y) = ((1,2),3).
-assert(a==1 and y==3).

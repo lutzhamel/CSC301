@@ -1,11 +1,10 @@
--- multi-dispatch implementation of factorial
+-- factorial with multi-dispatch
 
 function fact
-  with 0 do
-    return 1.
-  with n do
-    return n*fact(n-1).
-  end
+  with 1 do -- function argument == 1
+    1
+  with n do -- function argument =/= 1
+    n*fact(n-1).
+end
 
-let v = fact(3).
-assert(v==6).
+assert(fact(3) == 6).
