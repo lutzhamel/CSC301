@@ -1,0 +1,14 @@
+-- wild card pattern in structures
+
+function pair
+  with (1,1) do
+    "pair with two ones"
+  with (a,_) do -- wild card within structure
+    "pair with first component: "+a
+  with _ do
+    "not a pair"
+end
+
+assert(pair (1,1) == "pair with two ones").
+assert(pair (3,4) == "pair with first component: 3").
+assert(pair (1,2,3) == "not a pair").

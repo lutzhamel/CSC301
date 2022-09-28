@@ -1,0 +1,11 @@
+-- wild card pattern
+
+function zero
+  with 0 do
+    "zero"
+  with _ do -- wild card
+    "something else"
+end
+
+assert(zero(0) == "zero").
+assert(zero(1) == "something else").
