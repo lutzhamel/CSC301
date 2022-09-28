@@ -1,0 +1,24 @@
+-- functional implementation of quicksort
+
+load system io.
+
+function qsort
+  with [] do -- empty list
+    []
+  with [a] do -- single element list
+    [a]
+  with [pivot|rest] do -- head-tail operator
+    function filter
+      with (e,[],fcmp) do
+        []
+      with (e,[a|rest],fcmp) do
+        [a]+filter(e,rest,fcmp) 
+          if fcmp(a,e)
+          else filter(e,rest,fcmp)
+    end
+    let less=filter(pivot,rest,lambda with (x,y) do x < y).
+    let more=filter(pivot,rest,lambda with (x,y) do x >= y).
+    qsort less + [pivot] + qsort more.
+end
+
+io @println (qsort [3,2,1,0]).

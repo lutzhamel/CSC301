@@ -1,0 +1,34 @@
+-- the mergesort
+
+load system io.
+
+function mergesort
+   with [] do
+      []
+   with [a] do
+      [a]
+   with l do
+      function halve
+         with [] do 
+            ([],[])
+         with [a] do
+            ([a],[])
+         with [a|b|rest] do
+            let (llist,rlist) = halve(rest).
+            ([a]+llist,[b]+rlist)
+      end
+      function merge
+         with (llist:[],rlist) do
+            rlist
+         with (llist,rlist:[]) do
+            llist
+         with (first:[a|llist],second:[b|rlist]) do
+            [a]+merge(llist,second) 
+               if a < b
+               else [b]+merge(first,rlist)
+      end
+      let (x,y) = halve(l).
+      merge(mergesort(x),mergesort(y)).
+end
+
+io @println(mergesort([3,2,1,0])).
