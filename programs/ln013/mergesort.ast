@@ -18,17 +18,17 @@ function mergesort
             ([a]+llist,[b]+rlist)
       end
       function merge
-         with (llist:[],rlist) do
+         with ([],rlist) do
             rlist
-         with (llist,rlist:[]) do
+         with (llist,[]) do
             llist
-         with (first:[a|llist],second:[b|rlist]) do
-            [a]+merge(llist,second) 
-               if a < b
-               else [b]+merge(first,rlist)
+         with ([a|llist],[b|rlist]) do
+            [a]+merge(llist,[b]+rlist) if a < b
+               else [b]+merge([a]+llist,rlist)
       end
       let (x,y) = halve(l).
       merge(mergesort(x),mergesort(y)).
 end
 
 io @println(mergesort([3,2,1,0])).
+

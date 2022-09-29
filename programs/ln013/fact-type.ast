@@ -1,0 +1,21 @@
+-- the typed version of factorial
+-- factorial is only defined over the integers
+
+load system io.
+
+function fact 
+   with 1 do
+      1
+   with n:%integer do
+      n*fact(n-1)
+   with _ do
+      throw Error "not an integer value".
+end
+
+assert(fact(3) == 6).
+try
+   fact(3.0)
+catch s do
+   io @println s. -- catch the error
+end
+

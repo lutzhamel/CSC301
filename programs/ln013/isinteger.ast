@@ -1,0 +1,12 @@
+-- a function that determines whether a value
+-- is an integer value or not
+
+function isinteger
+  with %integer do
+    true
+  with _ do
+    false
+end
+
+assert(isinteger(1) == true).
+assert(isinteger(1.0) == false).
