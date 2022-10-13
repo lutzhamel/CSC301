@@ -1,0 +1,32 @@
+-- A demonstration of duck typing
+load system io.
+
+-- define some types with properties and the 
+-- shared property that the object of those 
+-- types can fly
+structure Duck with
+   function fly with none do
+      io @println "a duck can fly".
+   end
+   function swim with none do 
+      io @println "a duck can swim".
+   end
+end
+
+structure Plane with
+   function fly with none do
+      io @println "a plane can fly".
+   end
+   function taxi with none do
+      io @println "a plane can taxi".
+   end
+end
+
+-- create a polymorphic list
+let l = [Duck(),Plane(),Duck(),Plane()].
+
+-- use the interface that is common to all the objects
+for e in l do
+   e @fly ().
+end
+
