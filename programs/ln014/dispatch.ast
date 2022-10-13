@@ -1,0 +1,27 @@
+-- program to demonstrate function dispatch tables
+load system hash.
+
+-- functions to be put into the dispatch table
+function good_morning with name do
+   return ("Good morning, "+name+"!").
+end
+
+function good_afternoon with name do
+   return ("Good afternoon, "+name+"!").
+end
+
+function good_evening with name do
+   return ("Good evening, "+name+"!").
+end
+
+-- create our dispatch table
+let myhash = hash @hash().
+myhash @insert ("morning",good_morning).
+myhash @insert ("afternoon",good_afternoon).
+myhash @insert ("evening",good_evening).
+
+-- test out dispatch table
+let greeting_function = myhash @get ("morning").
+assert(greeting_function ("Joe") == "Good morning, Joe!").
+
+
