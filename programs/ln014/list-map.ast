@@ -1,14 +1,14 @@
 
 assert (
 
-[1,2,3] @map(lambda with i do return i+1)
+[1,2,3] @map(lambda with i do i+1)
 
   ==
 
 [
-  (lambda with i do return i+1) 1,
-  (lambda with i do return i+1) 2,
-  (lambda with i do return i+1) 3
+  (lambda with i do i+1) 1,
+  (lambda with i do i+1) 2,
+  (lambda with i do i+1) 3
 ]
 
   ).

@@ -1,0 +1,24 @@
+-- first-class functions
+
+function inc with i do
+   return i+1.
+end
+
+function dec with i do
+   return i-1.
+end
+
+-- c expects a function f and a value v and
+-- returns the value of applying f to v.
+function c with (f,v) do
+   return f(v).
+end
+
+-- we can now modify the behavior of c by
+-- passing in different functions
+let x = c(inc,1).
+assert(x==2).
+
+let y = c(dec,1).
+assert(y==0).
+

@@ -1,4 +1,0 @@
-load system io.
-
-let y = (lambda with x do return x+1) 1.
-io @println y. -- print out the value 2
