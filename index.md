@@ -47,15 +47,14 @@ NOTES:
 
 ## Memory
 
-#### Parameter passing
-* [Parameter Passing](notes/csc301-ln018.pdf)
-
 #### Recursion
 * [Stack & Frames](notes/csc301-ln016.pdf)
 
 #### Memory management
 * [Process Memory & Memory Management](notes/csc301-ln017.pdf)
 
+#### Parameter passing
+* [Parameter Passing](notes/csc301-ln018.pdf)
 
 
 ## Theory and Implementation
