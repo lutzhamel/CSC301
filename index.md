@@ -18,7 +18,6 @@ NOTES:
 * [Intro & Language Classes](notes/csc301-ln001.pdf)
 
 
-
 ## Programming & Types
 
 #### Asteroid
@@ -57,19 +56,17 @@ NOTES:
 * [Parameter Passing](notes/csc301-ln018.pdf)
 
 
-## Theory and Implementation
+## Theory
 
 #### Language specification
 * [Formal Language Specification](notes/csc301-ln009.pdf)
 * [Grammars in Action](notes/csc301-ln010.pdf)
 * [Grammars & Semantics](notes/csc301-ln011.pdf)
 
-#### Programming Language Implementation
-* [Programming Language Implementation](notes/csc301-ln012.pdf)
 
 #### Formal semantics
 * [Simple Operational Semantics](notes/csc301-ln024.pdf)
-<!-- * [The Semantics of Variables](notes/csc301-ln025.pdf) -->
+* [The Semantics of Variables](notes/csc301-ln025.pdf) 
 
 
 These lecture notes are released under the [CC-BY-NC-ND license](https://creativecommons.org/licenses/by-nc-nd/3.0/us/legalcode)
