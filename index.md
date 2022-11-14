@@ -65,7 +65,7 @@ NOTES:
 
 
 #### Formal semantics
-* [Simple Operational Semantics](notes/csc301-ln024.pdf)
+* [Operational Semantics](notes/csc301-ln024.pdf)
 * [The Semantics of Variables](notes/csc301-ln025.pdf) 
 
 
