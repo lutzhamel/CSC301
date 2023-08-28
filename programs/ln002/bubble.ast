@@ -20,5 +20,6 @@ function bubblesort with l do
 end
 
 let k = [6,5,3,1,8,7,2,4].
-io @println("unsorted array: "+k).
-io @println("sorted array: "+(bubblesort k)).
+io @println("unsorted array: "+tostring(k)).
+io @println("sorted array: "+tostring(bubblesort k)).
+

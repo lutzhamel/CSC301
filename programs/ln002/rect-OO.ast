@@ -1,6 +1,5 @@
 -- rectangle structure
 load system io.
-load system type.
 
 structure Rectangle with
   data xdim.
@@ -13,4 +12,8 @@ structure Rectangle with
 end
 
 let r = Rectangle(4,2).
-io @println ("The area of Rectangle ("+r@xdim+","+r@ydim+") is "+r@area()).
+let x = tostring(r@xdim).
+let y = tostring(r@ydim).
+let area = tostring(r@area()).
+io @println ("The area of rectangle <" + x + "," + y + "> is " + area).
+

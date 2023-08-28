@@ -14,4 +14,9 @@ structure Rect with
 end
 
 let r = Rect(4,2).
-io @println ("The area of rectangle <"+r @xdim+","+r @ydim+"> is "+r @area()).
+let x = tostring(r@xdim).
+let y = tostring(r@ydim).
+let area = tostring(r@area()).
+io @println ("The area of rectangle <" + x + "," + y + "> is " + area).
+
+

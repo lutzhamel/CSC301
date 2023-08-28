@@ -7,4 +7,6 @@ structure Rectangle with
 end
 
 let r = Rectangle(4,2). 
-io @println ("Rectangle with x="+r@xdim+" and y="+r@ydim).
+io @println ("Rectangle with x="+tostring(r@xdim)+" and y="+tostring(r@ydim)).
+
+
