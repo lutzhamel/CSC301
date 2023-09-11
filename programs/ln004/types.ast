@@ -1,13 +1,12 @@
 load system io.
-load system type.
 
 let i:%integer = 1.
-let k:%real = 3.1 + i.
+let k:%real = 3.1 + toreal(i).
 io @println k.
 
 let l:%list = [1,2,3].
 let r:%list = l@reverse().
-io @println ("The reversed list is "+r).
+io @println ("The reversed list is "+tostring(r)).
 
 let l:%list = [1,2.0,"three"].
 io @println l.
@@ -33,3 +32,4 @@ try
 catch _ do
   io @println "error: types not compatible".
 end
+

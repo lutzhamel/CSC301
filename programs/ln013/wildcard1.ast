@@ -4,7 +4,7 @@ function pair
   with (1,1) do
     "pair with two ones"
   with (a,_) do -- wild card within structure
-    "pair with first component: "+a
+    "pair with first component: "+tostring(a)
   with _ do
     "not a pair"
 end
